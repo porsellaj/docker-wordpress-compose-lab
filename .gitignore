@@ -1,0 +1,15 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Local data and logs
+/database/
+/html/
+*.log
+
+# Operating system/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

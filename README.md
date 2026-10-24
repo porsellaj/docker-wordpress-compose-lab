@@ -1,6 +1,6 @@
 # Docker WordPress Compose Lab
 
-Academic lab. The exercise deploys WordPress and MariaDB on an Ubuntu VPS using Docker, first with individual `docker run` commands and then with Docker Compose.
+Academic lab completed for *Introduction to Cybersecurity* at Universidad Tecnológica de Panamá. The exercise deploys WordPress and MariaDB on an Ubuntu VPS using Docker, first with individual `docker run` commands and then with Docker Compose.
 
 > **Scope:** This is a learning lab, not a production-ready WordPress deployment. The manual section reproduces the basic architecture from the course exercise. The included Compose file is a reproducible reconstruction based on the report; the report's screenshot does not show the complete original YAML. The reconstructed file adds a dedicated database user, explicit image tags, a database health check, named volumes, and environment-variable-based credentials.
 
@@ -221,3 +221,4 @@ docker compose down
 
 ---
 
+Academic lab for **Introduction to Cybersecurity**, Universidad Tecnológica de Panamá, June 2026.
